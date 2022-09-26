@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+#dansulogo{
+    width: 100px;
+    height: 100px;
+}
+
+#logotitle{
+    padding: 30px;
+    padding-left: 0%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-left{
+    padding-left: 30px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.nav-right{
+    padding: 50px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-right p{
+    padding: 20px;
+    font-size: 20px;
+}
+
+.nav-right a{
+    color: rgb(204, 204, 204);
+    text-decoration: none;
+}
+
+.nav-right a:hover{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
